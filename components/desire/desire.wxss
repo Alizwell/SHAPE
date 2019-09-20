@@ -1,0 +1,39 @@
+/* pages/desire/desire.wxss */
+.table-head, .table-body{ 
+  width: 90%;
+  margin: 0 auto;
+  background-color: #ccc;
+}
+
+.table-tr, .table-head{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.tr-hover{
+  background-color: #fcfcfc;
+}
+
+.table-td{
+  padding: 8px;
+}
+
+.td0{
+  width: 80rpx;
+  text-align: center;
+}
+
+.td1{
+  flex-grow: 1;
+}
+
+.td2{
+  width: 90rpx;
+}
+
+.td2{
+  text-overflow: hidden;
+}

@@ -1,0 +1,16 @@
+<view>
+  <view class="custom-table">
+    <view class="table-head">
+      <block wx:for="{{title}}">
+        <view class="table-td td{{index}}">{{item}}</view>
+      </block>
+    </view>
+    <view class="table-body">
+      <view class="table-tr" wx:for="{{allDesires}}" hover-class="tr-hover">
+        <view class="table-td td0">{{index}}</view>
+        <view class="table-td td1">{{item.name}}</view>
+        <view class="table-td td2">{{item.waste}}</view>
+      </view>
+    </view>
+  </view>
+</view>

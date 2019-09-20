@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "components/desire/desire",
+    "components/achievement/achievement",
+    "components/bill/bill"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "SHAPE",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "components/desire/desire",
+        "text": "欲望库"
+      },
+      {
+        "pagePath": "components/achievement/achievement",
+        "text": "成就库"
+      },
+      {
+        "pagePath": "components/bill/bill",
+        "text": "账单"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
